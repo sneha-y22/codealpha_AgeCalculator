@@ -1,0 +1,76 @@
+body {
+    width: 100%;
+    background: linear-gradient(180deg, white, rgb(77, 86, 131), #1e283d);
+    position: relative;
+    font-family: roboto, sans-serif;
+}
+
+h1{
+    color: #323640;
+    text-align: center;
+    font-size: 70px;
+    font-style: italic;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.heading{
+    color: rgb(41, 43, 49);
+    text-align: center;
+}
+
+.date-dropdown {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-size: medium;
+}
+
+.date_box {
+    background-color: rgb(186, 217, 179);
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin-left: 250px;
+    margin-top: 40px;
+    min-width: 400px;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 110%;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 550px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+select {
+    font-size: large;
+}
